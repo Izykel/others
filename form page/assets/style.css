@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-image:linear-gradient(to right, rgb(5, 46, 121),rgb(77, 142, 248));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input{
+    display:block;
+    width: 200px;
+    height: 30;
+    border:1px solid white;
+    border-radius:5px; 
+    margin:5px;
+    padding: 5px;
+}
+
+select{
+    display:block;
+    width: 200px;
+    border-radius:5px;
+    margin: 5px;
+
+
+}
+
+
+button{
+    all: unset;
+    width: 190px;
+    height: 30;
+    border:1px solid white;
+    border-radius:5px; 
+    margin:5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: rgba(120, 180, 244, 0.8);
+    cursor: pointer;
+}
