@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #d2dcff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 600px;
+    height:400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.green{
+    width: inherit;
+    height: inherit;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left, #20d4aa, #76fcdd);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+
+}
+
+.converter{
+    width: 400px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow:4px 4px 5px rgba(49, 49, 50, 0.6) ;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.celcius,.fahrenheit ,.kelvin {
+    display: flex;
+    justify-content: space-between;
+    color: #0f874b;
+    flex-direction: ro;
+    gap: 50px;
+}
+
+input{
+    all: unset;
+    width: 150px;
+    height: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size:12px;
+    background-color: #eff1f0c0;
+    border-style: inset;
+}
+h3{
+    text-align: center;
+    color: #0f874b;
+}
+
+span{
+    color: #0f874b;
+    font-weight: bold;
+    font-size: 14px;
+}
